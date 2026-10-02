@@ -83,6 +83,11 @@
     .stats { display: flex; gap: 22px; margin-top: 28px; flex-wrap: wrap; }
     .stats div strong { display: block; font-size: 1.25rem; }
     .stats div span { color: var(--muted); font-size: .85rem; }
+    
+    .hero-photo { margin: 0; }
+    .hero-photo img { width: 100%; height: auto; border-radius: 22px; display: block; box-shadow: var(--shadow); }
+    .hero-photo .fine { margin: 8px 2px 0; font-size: .8rem; color: var(--muted); }
+
     .hero-card {
       background: var(--ink); color: #f7f1e8; border-radius: 22px; padding: 22px;
       box-shadow: var(--shadow); position: relative; overflow: hidden;
@@ -193,13 +198,7 @@
       <div class="kicker">גיוס לקוחות · עסקים ומשפחות</div>
       <h1>מתדלקים בסונול.<br><span>בלי מזומן, בלי בלגן.</span></h1>
       <p class="lede">דלקן, כרטיס נהג, מאסטר וסונוקאש — עם מנהל תיק אישי מקשת יזמות עסקית. חשבונית חודשית מסודרת לעסק, ושקט ברכב של הבית.</p>
-      
-    <div class="campaign-visuals" aria-label="סימני הקמפיין">
-      <figure><img src="assets/sonol-mark.svg" alt="סימן סונול מהקמפיין"><figcaption>סימן סונול מהקמפיין</figcaption></figure>
-      <figure><img src="assets/keshet-mark.svg" alt="סימן קשת מהקמפיין"><figcaption>סימן קשת מהקמפיין</figcaption></figure>
-    </div>
-
-      <div class="hero-actions">
+<div class="hero-actions">
         <a class="btn btn-red" href="#lead">רוצה שיחזרו אליי</a>
         <a class="btn btn-ghost" href="#benefits">מה יוצא לי מזה</a>
       </div>
@@ -209,17 +208,9 @@
         <div><strong>מנהל תיק</strong><span>בן אדם, לא רק מוקד</span></div>
       </div>
     </div>
-    <aside class="hero-card" aria-hidden="true">
-      <div class="pump">
-        <div class="pump-top"><span>תדלוק אחרון</span><span class="chip">דלקן</span></div>
-        <div class="rows">
-          <div class="row"><span>רכב 25-330-09</span><b>95</b></div>
-          <div class="row"><span>נהג · כרטיס אישי</span><b>פעיל</b></div>
-          <div class="row"><span>חשבונית החודש</span><b>אחת</b></div>
-          <div class="row"><span>שטיפומט</span><b>מוגבל</b></div>
-        </div>
-      </div>
-      <p class="fine">המחשה בלבד. תנאים, הנחה ואשראי נקבעים בהסכם ללקוח.</p>
+    <aside class="hero-photo">
+      <img src="assets/campaign-fueling.png" alt="תדלוק בדלקן סונול: רכב פרטי, משפחה ומשאית">
+      <p class="fine">תמונת קמפיין. תנאים והנחה נקבעים בהסכם, לא לפי השלט.</p>
     </aside>
   </section>
 
