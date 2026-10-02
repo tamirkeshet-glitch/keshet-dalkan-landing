@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 48" role="img" aria-label="קשת יזמות עסקית">
+  <path d="M12 34c18-22 58-22 76 0" fill="none" stroke="#E10600" stroke-width="6" stroke-linecap="round"/>
+  <path d="M18 34c16-16 50-16 66 0" fill="none" stroke="#F5C518" stroke-width="5" stroke-linecap="round"/>
+  <path d="M24 34c14-10 42-10 56 0" fill="none" stroke="#1E4FA3" stroke-width="4" stroke-linecap="round"/>
+  <text x="98" y="34" font-family="Heebo, Arial, sans-serif" font-size="22" font-weight="800" fill="#101820">קשת</text>
+</svg>

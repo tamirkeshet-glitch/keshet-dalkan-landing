@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="סונול">
+  <g transform="translate(40 36)">
+    <path fill="#E10600" d="M0-28c6 8 8 16 0 24-8-8-6-16 0-24z"/>
+    <path fill="#E10600" d="M0-28c6 8 8 16 0 24-8-8-6-16 0-24z" transform="rotate(72)"/>
+    <path fill="#E10600" d="M0-28c6 8 8 16 0 24-8-8-6-16 0-24z" transform="rotate(144)"/>
+    <path fill="#E10600" d="M0-28c6 8 8 16 0 24-8-8-6-16 0-24z" transform="rotate(216)"/>
+    <path fill="#E10600" d="M0-28c6 8 8 16 0 24-8-8-6-16 0-24z" transform="rotate(288)"/>
+    <circle r="8" fill="#F5C518"/>
+  </g>
+</svg>
